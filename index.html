@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body>
+  <h1>Formulario de Datos</h1>
+  <section>
+    <form action="">
+      <div ALING=center>
+        <label for="nombre">Nombre:</label><br>
+        <input title="Ingresa tu nombre" type="text" name="nombre" required/>
+      </div><br>
+      <div>
+      <form action="">
+        <label for="apellido">Apellido:</label><br>
+        <input title="ingrese su apellido" type="text" name="apellido" required/>
+      </div><br>
+      <div>
+        <label for="telefono">Teléfono:</label><br>
+        <input minlength="5" maxlength="40" type="text" name="telefono" required/>
+      </div><br>
+      <div>
+        <label for="dropdown">Dropdown:</label><br>
+        <input type="text" name="dropdown" required/>
+      </div><br>
+      <div>
+        <label for="email">Email:</label><br>
+        <input type="email" pattern="^[a-zA-Z0-9.!#$%'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$" name="email" required/>
+      </div><br>
+      <div>
+        <label for="contraseña">Contraseña:</label><br>
+        <input type="password" name="contraseña" required/>
+      </div><br>
+      <button type="submit">Enviar</button>
+    </form>
+  </section>
+</body>
+</html>
